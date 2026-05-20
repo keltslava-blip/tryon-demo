@@ -8,7 +8,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Segoe UI', sans-serif; background: #0a0a0a; color: #fff; }
 header { padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #222; }
-.logo { font-size: 22px; font-weight: 700; letter-spacing: 2px; color: #fff; }
+.logo { font-size: 22px; font-weight: 700; letter-spacing: 2px; }
 .logo span { color: #7c3aed; }
 .hero { text-align: center; padding: 80px 20px 60px; }
 .hero h1 { font-size: 48px; font-weight: 800; line-height: 1.2; margin-bottom: 20px; }
@@ -21,79 +21,8 @@ header { padding: 20px 40px; display: flex; justify-content: space-between; alig
 .feature .icon { font-size: 40px; margin-bottom: 16px; }
 .feature h3 { font-size: 18px; margin-bottom: 8px; }
 .feature p { color: #888; font-size: 14px; }
-.demo-section { background: #111; padding: 60px 40px; text-align: center; }
-.demo-section h2 { font-size: 32px; margin-bottom: 16px; }
-.demo-section p { color: #888; margin-bottom: 40px; }
-.demo-boxes { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; }
-.demo-box { background: #1a1a1a; border: 2px dashed #333; border-radius: 12px; width: 260px; height: 320px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; color: #555; font-size: 14px; }
-.demo-box .icon { font-size: 48px; }
-.arrow { font-size: 48px; color: #7c3aed; display: flex; align-items: center; }
-footer { text-align: center; padding: 40px; color: #444; font-size: 13px; border-top: 1px solid #1a1a1a; }
-</style>
-</head>
-<body>
-
-<header>
-  <div class="logo">TRY<span>ON</span></div>
-  <nav style="color:#888; font-size:14px;">Хабаровск · 2026</nav>
-</header>
-
-<section class="hero">
-  <h1>Примерь одежду<br><span>до покупки</span></h1>
-  <p>Загрузи своё фото и фото любой вещи — AI покажет как она будет смотреться именно на тебе</p>
-  <button class="btn">Попробовать демо</button>
-</section>
-
-<section class="features">
-  <div class="feature">
-    <div class="icon">📸</div>
-    <h3>Одно фото</h3>
-    <p>Достаточно обычного фото в полный рост</p>
-  </div>
-  <div class="feature">
-    <div class="icon">👗</div>
-    <h3>Любая одежда</h3>
-    <p>Фото вещи с сайта магазина или маркетплейса</p>
-  </div>
-  <div class="feature">
-    <div class="icon">⚡</div>
-    <h3>Результат сразу</h3>
-    <p>AI примеряет вещь на твою фигуру за секунды</p>
-  </div>
-  <div class="feature">
-    <div class="icon">📦</div>
-    <h3>Меньше возвратов</h3>
-    <p>Знаешь как сядет вещь — покупаешь уверенно</p>
-  </div>
-</section>
-
-<section class="demo-section">
-  <h2>Как это работает</h2>
-  <p>Три простых шага</p>
-  <div class="demo-boxes">
-    <div class="demo-box">
-      <div class="icon">🧍</div>
-      <strong>Твоё фото</strong>
-      <span>В полный рост</span>
-    </div>
-    <div class="arrow">+</div>
-    <div class="demo-box">
-      <div class="icon">👕</div>
-      <strong>Фото вещи</strong>
-      <span>Из каталога</span>
-    </div>
-    <div class="arrow">→</div>
-    <div class="demo-box">
-      <div class="icon">✨</div>
-      <strong>Результат</strong>
-      <span>Ты в этой вещи</span>
-    </div>
-  </div>
-</section>
-
-<footer>
-  © 2026 TryOn Demo · Хабаровск · Дальний Восток
-</footer>
-
-</body>
-</html>
+.models-section { padding: 60px 40px; text-align: center; background: #111; }
+.models-section h2 { font-size: 32px; margin-bottom: 8px; }
+.models-section .subtitle { color: #888; margin-bottom: 40px; font-size: 16px; }
+.models-grid { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+.model-card { position: relative; width: 200px; border-radius: 12px; overflow: hidden;
